@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.mayerblue.options.data.CellValues&apos; to &apos;Product&apos;&#x0D;&#x0A;- Original project: &apos;Product Variations Main Project Home&apos;&#x0D;&#x0A;- Original element: &apos;com.mayerblue.options.data.CellValues&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mayerblue.options.data.Product&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CellValues&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.mayerblue.options.data{CellValues.java[CellValues" matchStrategy="1" name="Product" qualified="false" references="true" similarDeclarations="false" stamp="1397359278250" textual="false" version="1.0"/>
+</session>

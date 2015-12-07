@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ryanwemmer.options.pojo.Attributes" 
+        table="attributes">
+        <id	
+            name="id"
+			column="id">
+			<generator class="increment"/>
+		</id>
+		<property
+			name="magentoCode"
+			column="magento_code"/>
+		<property
+			name="active"
+			column="active"/>
+		<property
+			name="exportOrder"
+			column="export_order"/>
+		<property
+			name="defaultValue"
+			column="default_value"/>
+		<property
+			name="isConfigurableOption"
+			column="is_configurable_option"/>
+		<property
+			name="replaceApost"
+			column="replace_apost"/>
+		<property
+			name="replaceQuote"
+			column="replace_quote"/>
+		<property
+			name="dateCreated"
+			column="date_created"/>
+		<property
+			name="dateModified"
+			column="date_modified"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,4 @@
+To do List before final release:
+
+-Change pointer to hibernate.xml's real location in Crud.java and not the hardcoded location.
+-In HibernateUtil, change hibernate.cfg.xml from hardcoded directory to source directory.
